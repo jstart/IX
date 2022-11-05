@@ -1,16 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "VideoPlayer",
-        "repositoryURL": "https://github.com/wxxsw/VideoPlayer",
-        "state": {
-          "branch": null,
-          "revision": "2b7129589146cba63b90209121665c5426ea1118",
-          "version": "1.0.0"
-        }
+  "pins" : [
+    {
+      "identity" : "gsplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wxxsw/GSPlayer.git",
+      "state" : {
+        "revision" : "5904551cf33e0c38831fdc56c6a2c9770eadc30d",
+        "version" : "0.2.25"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "videoplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wxxsw/VideoPlayer",
+      "state" : {
+        "branch" : "master",
+        "revision" : "53c92a31ebfce1e309751e94af73dfaa9356aa64"
+      }
+    }
+  ],
+  "version" : 2
 }

@@ -13,9 +13,12 @@
 		230C09ED23593E6000645CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230C09EC23593E6000645CA6 /* Assets.xcassets */; };
 		230C09F023593E6000645CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230C09EF23593E6000645CA6 /* Preview Assets.xcassets */; };
 		230C09F323593E6000645CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C09F123593E6000645CA6 /* LaunchScreen.storyboard */; };
-		230C09FB235944BC00645CA6 /* cat_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230C09FA235944BB00645CA6 /* cat_bg.jpg */; };
-		23DE21CD2393AA5000DF6E0B /* ad_breakup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23DE21CC2393AA5000DF6E0B /* ad_breakup.mp4 */; };
-		23DE21D02393AB2B00DF6E0B /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 23DE21CF2393AB2B00DF6E0B /* VideoPlayer */; };
+		238AA72B2916320300C967D2 /* ad_breakup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 238AA7282916320300C967D2 /* ad_breakup.mp4 */; };
+		238AA72C2916320300C967D2 /* thats_crazy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 238AA7292916320300C967D2 /* thats_crazy.mp4 */; };
+		238AA72D2916320300C967D2 /* aw_jesus_gross.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 238AA72A2916320300C967D2 /* aw_jesus_gross.mp4 */; };
+		238AA7302916326F00C967D2 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 238AA72F2916326F00C967D2 /* VideoPlayer */; };
+		238AA7332916353D00C967D2 /* molested.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 238AA7312916353D00C967D2 /* molested.mp4 */; };
+		238AA7342916353D00C967D2 /* turkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 238AA7322916353D00C967D2 /* turkey.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +30,11 @@
 		230C09EF23593E6000645CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		230C09F223593E6000645CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		230C09F423593E6000645CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		230C09FA235944BB00645CA6 /* cat_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_bg.jpg; sourceTree = "<group>"; };
-		23DE21CC2393AA5000DF6E0B /* ad_breakup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ad_breakup.mp4; sourceTree = "<group>"; };
+		238AA7282916320300C967D2 /* ad_breakup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ad_breakup.mp4; sourceTree = "<group>"; };
+		238AA7292916320300C967D2 /* thats_crazy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = thats_crazy.mp4; sourceTree = "<group>"; };
+		238AA72A2916320300C967D2 /* aw_jesus_gross.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = aw_jesus_gross.mp4; sourceTree = "<group>"; };
+		238AA7312916353D00C967D2 /* molested.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = molested.mp4; sourceTree = "<group>"; };
+		238AA7322916353D00C967D2 /* turkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = turkey.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DE21D02393AB2B00DF6E0B /* VideoPlayer in Frameworks */,
+				238AA7302916326F00C967D2 /* VideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +68,11 @@
 		230C09E523593E5E00645CA6 /* IX */ = {
 			isa = PBXGroup;
 			children = (
+				238AA7272916320300C967D2 /* Videos */,
 				230C09E623593E5E00645CA6 /* AppDelegate.swift */,
 				230C09E823593E5E00645CA6 /* SceneDelegate.swift */,
 				230C09EA23593E5E00645CA6 /* ContentView.swift */,
 				230C09EC23593E6000645CA6 /* Assets.xcassets */,
-				230C09FA235944BB00645CA6 /* cat_bg.jpg */,
-				23DE21CC2393AA5000DF6E0B /* ad_breakup.mp4 */,
 				230C09F123593E6000645CA6 /* LaunchScreen.storyboard */,
 				230C09F423593E6000645CA6 /* Info.plist */,
 				230C09EE23593E6000645CA6 /* Preview Content */,
@@ -81,6 +86,18 @@
 				230C09EF23593E6000645CA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		238AA7272916320300C967D2 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				238AA7312916353D00C967D2 /* molested.mp4 */,
+				238AA7322916353D00C967D2 /* turkey.mp4 */,
+				238AA7282916320300C967D2 /* ad_breakup.mp4 */,
+				238AA7292916320300C967D2 /* thats_crazy.mp4 */,
+				238AA72A2916320300C967D2 /* aw_jesus_gross.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +117,7 @@
 			);
 			name = IX;
 			packageProductDependencies = (
-				23DE21CF2393AB2B00DF6E0B /* VideoPlayer */,
+				238AA72F2916326F00C967D2 /* VideoPlayer */,
 			);
 			productName = IX;
 			productReference = 230C09E323593E5E00645CA6 /* IX.app */;
@@ -113,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Christopher Truman";
 				TargetAttributes = {
 					230C09E223593E5E00645CA6 = {
@@ -131,7 +148,7 @@
 			);
 			mainGroup = 230C09DA23593E5D00645CA6;
 			packageReferences = (
-				23DE21CE2393AB2B00DF6E0B /* XCRemoteSwiftPackageReference "VideoPlayer" */,
+				238AA72E2916326F00C967D2 /* XCRemoteSwiftPackageReference "VideoPlayer" */,
 			);
 			productRefGroup = 230C09E423593E5E00645CA6 /* Products */;
 			projectDirPath = "";
@@ -147,10 +164,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238AA72C2916320300C967D2 /* thats_crazy.mp4 in Resources */,
+				238AA7332916353D00C967D2 /* molested.mp4 in Resources */,
+				238AA72D2916320300C967D2 /* aw_jesus_gross.mp4 in Resources */,
+				238AA72B2916320300C967D2 /* ad_breakup.mp4 in Resources */,
 				230C09F323593E6000645CA6 /* LaunchScreen.storyboard in Resources */,
-				23DE21CD2393AA5000DF6E0B /* ad_breakup.mp4 in Resources */,
+				238AA7342916353D00C967D2 /* turkey.mp4 in Resources */,
 				230C09F023593E6000645CA6 /* Preview Assets.xcassets in Resources */,
-				230C09FB235944BC00645CA6 /* cat_bg.jpg in Resources */,
 				230C09ED23593E6000645CA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +228,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -232,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,6 +289,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -301,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"IX/Preview Content\"";
 				DEVELOPMENT_TEAM = PP6S682Z9F;
 				ENABLE_PREVIEWS = YES;
@@ -314,6 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -322,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"IX/Preview Content\"";
 				DEVELOPMENT_TEAM = PP6S682Z9F;
 				ENABLE_PREVIEWS = YES;
@@ -335,6 +358,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -362,20 +386,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		23DE21CE2393AB2B00DF6E0B /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+		238AA72E2916326F00C967D2 /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		23DE21CF2393AB2B00DF6E0B /* VideoPlayer */ = {
+		238AA72F2916326F00C967D2 /* VideoPlayer */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 23DE21CE2393AB2B00DF6E0B /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			package = 238AA72E2916326F00C967D2 /* XCRemoteSwiftPackageReference "VideoPlayer" */;
 			productName = VideoPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */
