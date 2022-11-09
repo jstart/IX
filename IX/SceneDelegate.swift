@@ -1,4 +1,5 @@
 import UIKit
+import AVFAudio
 import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -14,6 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+            try! AVAudioSession.sharedInstance().setCategory(.playback)
         }
     }
 }

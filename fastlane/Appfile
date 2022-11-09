@@ -1,6 +1,6 @@
 app_identifier("truman.IX") # The bundle identifier of your app
+export FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD="grxl-imyn-keas-opzl"
 apple_id("cleetruman@gmail.com") # Your Apple Developer Portal username
-
 itc_team_id("207566") # App Store Connect Team ID
 team_id("PP6S682Z9F") # Developer Portal Team ID
 

@@ -19,6 +19,7 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
     increment_build_number(xcodeproj: "IX.xcodeproj")
+    update_project_provisioning(xcodeproj: "IX.xcodeproj", build_configuration: "Release", profile:"fastlane/IX_Store.mobileprovision")
     build_app(scheme: "IX")
     upload_to_testflight
   end
